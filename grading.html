@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/grading.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="index.html" class="nav__logo">Viraj Upadhyay</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="index.html" class="nav__link">HOME</a></li>
+            <li class="nav__item"><a href="gallery.html" class="nav__link">GALLERY</a></li>
+            <li class="nav__item"><a href="grading.html" class="nav__link">GRADING</a></li>
+            <li class="nav__item"><a href="videos.html" class="nav__link">VIDEOS</a></li>
+            <li class="nav__item"><a href="about.html" class="nav__link">ABOUT</a></li>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <ion-icon class="nav__icon" name="menu"></ion-icon>
+        </div>
+      </nav>
+    </header>
+
+    <div class="wrapper">
+      <h1 class="section-header">Color Grading</h1>
+      <div class="main-content">
+        <div class="box">
+          <div class="image-comparison">
+            <div class="image-container">
+              <img src="assets/img/housewithcar.jpeg" class="before" alt="" />
+              <img src="assets/img/housewithcar.jpeg" class="after" alt="" />
+
+              <div class="slider-line"></div>
+              <div class="slider-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
+                  />
+                </svg>
+              </div>
+              <input type="range" class="slider" min="0" max="100" />
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image-comparison">
+            <div class="image-container">
+              <img src="assets/img/girlgrass.jpg" class="before" />
+              <img src="assets/img/girlgrass.jpg" class="after" />
+
+              <div class="slider-line"></div>
+              <div class="slider-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
+                  />
+                </svg>
+              </div>
+              <input type="range" class="slider" min="0" max="100" />
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="assets/img/girlreading.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- ICONOS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/grading.js"></script>
+  </body>
+</html>
