@@ -316,7 +316,7 @@ main {
 }
 
 .image-comparison {
-  max-width: 700px;
+  max-width: 1200px;
   margin: 20px auto;
   overflow: hidden;
   display: flex;
@@ -343,7 +343,6 @@ main {
   top: 0;
   left: 0;
   width: 100%;
-  filter: grayscale(100%);
 }
 
 .image-comparison .slider {
